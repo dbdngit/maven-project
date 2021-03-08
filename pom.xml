@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.learn.cloud</groupId>
-  <artifactId>webdev</artifactId>
+  <artifactId>march</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
