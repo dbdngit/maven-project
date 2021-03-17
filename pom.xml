@@ -20,19 +20,11 @@
   <snapshots>
     <enabled>true</enabled>
   </snapshots>
-</repository>
-  <repository>
-  <id>democloudlearn</id>
-  <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/democloudlearn/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
   </repository>
   </repositories>
 <!-- Additional repo from azure feed under distribution management -->
+ 
+  
   <distributionManagement>
     <repository>
   <id>cloudlearn-feed</id>
@@ -43,17 +35,7 @@
   <snapshots>
     <enabled>true</enabled>
   </snapshots>
-</repository>
-  <repository>
-  <id>democloudlearn</id>
-  <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/democloudlearn/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-  </repository>
+   </repository>   
   </distributionManagement>
   
   
