@@ -12,6 +12,16 @@
 <!-- Additional repo from azure feed -->
 <repositories>
   <repository>
+  <id>cloudlearn-feed</id>
+  <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/cloudlearn-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  <repository>
   <id>democloudlearn</id>
   <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/democloudlearn/maven/v1</url>
   <releases>
@@ -24,6 +34,16 @@
   </repositories>
 <!-- Additional repo from azure feed under distribution management -->
   <distributionManagement>
+    <repository>
+  <id>cloudlearn-feed</id>
+  <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/cloudlearn-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
   <repository>
   <id>democloudlearn</id>
   <url>https://pkgs.dev.azure.com/dbdnlearncloud/firstprojct/_packaging/democloudlearn/maven/v1</url>
